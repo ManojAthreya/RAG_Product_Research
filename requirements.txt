@@ -1,5 +1,6 @@
 langchain
 langchain_community
+langchain_core
 llama-index
 langchain-together
 urllib3
@@ -18,5 +19,5 @@ chromadb
 tavily-python
 streamlit
 openai
-langchain-openai
+langchain_openai
 sseclient-py
