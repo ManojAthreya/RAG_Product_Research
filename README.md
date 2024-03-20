@@ -14,7 +14,7 @@ This repository contains a streamlined architecture for conducting market analys
 # Technology
 - **Python Libraries**: os, json, nest_asyncio
 - **Framework**: Langchain
-- **Search Engine**: Tavlily API
+- **Search Engine**: Tavily AI API
 - **Vector Database**: Chroma DB
 - **Language Models**: Google Gemini Pro, GPT-3.5-Turbo, Ollama (Llama2:chat), Together AI models
 - **PHP Library**: fPDF (for PDF generation)
