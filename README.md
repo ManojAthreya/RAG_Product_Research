@@ -3,14 +3,21 @@
 Product's Market Analysis using RAG
 This repository contains a streamlined architecture for conducting market analysis on various companies, utilizing a combination of web scraping, data processing, and language modeling techniques.
 
-# Functionality
-- **User Input**: Users provide a company name as input.
-- **Search Query Generation**: The system generates multiple search queries based on the provided company name.
-- **Web Links Scraping**: Relevant data is extracted from websites corresponding to the generated search queries. This is facilitated by Tavily API Search and Wikipedia scraping.
-- **Data Storage**: Extracted data is efficiently stored in the Chroma DB Vector Database, optimizing retrieval and processing.
-- **Language Model Analysis**: The project supports various language models such as ChatGPT, Ollama, Together AI, and Google Gemini Pro. These models analyze the collected data to generate comprehensive reports about the company.
-- **Report Generation**: A detailed report summarizing the findings is created using tools like fPDF, a PHP library for PDF generation.
-- **Log Traces**: LangSmith helped to log traces for testing, deploying and monitoring the outputs generated and their latency.
+# Architecture
+1. Dependencies Installation: Ensure all required dependencies are installed by referring to the "requirements.txt" file.
+2. Configuration: Set up the system by providing the necessary API keys for the language model and Tavlily search.
+3. Execution: Run the app.py script, and utilize Streamlit to input the desired company name.
+4. Report Generation: The system processes the input, retrieves relevant data, and generates a comprehensive report about the company.
+
+![image](https://github.com/ManojAthreya/RAG_Product_Research/assets/39020374/038346fc-3aea-4129-838f-3b42d4efcea3)
+
+# Cost for a query using ChatGPT 3.5 Turbo Model
+
+![image](https://github.com/ManojAthreya/RAG_Product_Research/assets/39020374/608bd55c-6601-4e55-a310-68ce4a4104c3)
+
+# Output
+
+![image](https://github.com/ManojAthreya/RAG_Product_Research/assets/39020374/c167ded1-b35a-4ef5-8443-cfdc112f388e)
 
 # Technology
 - **Python Libraries**: os, json, nest_asyncio
@@ -22,18 +29,14 @@ This repository contains a streamlined architecture for conducting market analys
 - **Front End**: Streamlit
 - **Tracing & Logging**: LangSmith
 
-# Architecture
-1. Dependencies Installation: Ensure all required dependencies are installed by referring to the "requirements.txt" file.
-2. Configuration: Set up the system by providing the necessary API keys for the language model and Tavlily search.
-3. Execution: Run the app.py script, and utilize Streamlit to input the desired company name.
-4. Report Generation: The system processes the input, retrieves relevant data, and generates a comprehensive report about the company.
-
-![image](https://github.com/ManojAthreya/RAG_Product_Research/assets/39020374/a60affe2-0362-453d-b887-329b48c21231)
-
-# Cost for a query using ChatGPT 3.5 Turbo Model
-
-![image](https://github.com/ManojAthreya/RAG_Product_Research/assets/39020374/608bd55c-6601-4e55-a310-68ce4a4104c3)
-
+# Functionality
+- **User Input**: Users provide a company name as input.
+- **Search Query Generation**: The system generates multiple search queries based on the provided company name.
+- **Web Links Scraping**: Relevant data is extracted from websites corresponding to the generated search queries. This is facilitated by Tavily API Search and Wikipedia scraping.
+- **Data Storage**: Extracted data is efficiently stored in the Chroma DB Vector Database, optimizing retrieval and processing.
+- **Language Model Analysis**: The project supports various language models such as ChatGPT, Ollama, Together AI, and Google Gemini Pro. These models analyze the collected data to generate comprehensive reports about the company.
+- **Report Generation**: A detailed report summarizing the findings is created using tools like fPDF, a PHP library for PDF generation.
+- **Log Traces**: LangSmith helped to log traces for testing, deploying and monitoring the outputs generated and their latency.
 
 # Getting Started
 To utilize this system for conducting market analysis, follow these steps:
