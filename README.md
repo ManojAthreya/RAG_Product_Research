@@ -15,7 +15,7 @@ This repository contains a streamlined architecture for conducting market analys
 
 ![image](https://github.com/ManojAthreya/RAG_Product_Research/assets/39020374/608bd55c-6601-4e55-a310-68ce4a4104c3)
 
-# Output
+# Output  (8 pages of PDF file)
 
 ![image](https://github.com/ManojAthreya/RAG_Product_Research/assets/39020374/c167ded1-b35a-4ef5-8443-cfdc112f388e)
 
